@@ -1,9 +1,9 @@
-import RoutesPages from "./routes/RoutesPages";
+import RoutesPages from "./routes";
 
 function App() {
   return (
     <div>
-      <RoutesPages></RoutesPages>
+      <RoutesPages />
     </div>
   );
 }

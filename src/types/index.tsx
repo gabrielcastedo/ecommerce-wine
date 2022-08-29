@@ -12,14 +12,12 @@ export interface MyProps {
   };
 }
 
-export interface DataWine {
-  categoria: string;
+export interface DescriptionWine {
+  winery: string;
+  wine: string;
+  average: string;
+  reviews: string;
+  location: string;
+  image: string;
   id: number;
-  img: string;
-  nome: string;
-  pais: string;
-  preco: number;
-  safra: number;
-  teor: number;
-  volume: string;
 }
