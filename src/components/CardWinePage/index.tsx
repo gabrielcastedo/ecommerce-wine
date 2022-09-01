@@ -7,10 +7,6 @@ interface IPropsCardWinePage {
 }
 
 const CardWinePage = ({ image, wine, typeWine }: IPropsCardWinePage) => {
-  if (typeWine === "reds") {
-    typeWine = "vermelho";
-  }
-
   return (
     <ContainerCardWinePage>
       <p>New</p>
